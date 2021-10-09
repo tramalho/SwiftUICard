@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		904E07CB271120F600820A4D /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 904E07CA271120F600820A4D /* Pacifico-Regular.ttf */; };
+		904E07CD2711222A00820A4D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904E07CC2711222A00820A4D /* Launch Screen.storyboard */; };
+		909F047D2711B03400824A0C /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909F047C2711B03400824A0C /* InfoView.swift */; };
 		90D4BBB7270FD95800544945 /* SwiftUICardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4BBB6270FD95800544945 /* SwiftUICardApp.swift */; };
 		90D4BBB9270FD95800544945 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4BBB8270FD95800544945 /* ContentView.swift */; };
 		90D4BBBB270FD95900544945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D4BBBA270FD95900544945 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		904E07CA271120F600820A4D /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		904E07CC2711222A00820A4D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		909F047C2711B03400824A0C /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		90D4BBB3270FD95800544945 /* SwiftUICard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D4BBB6270FD95800544945 /* SwiftUICardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICardApp.swift; sourceTree = "<group>"; };
 		90D4BBB8270FD95800544945 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		904E07C9271120E700820A4D /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				904E07CA271120F600820A4D /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		90D4BBAA270FD95800544945 = {
 			isa = PBXGroup;
 			children = (
@@ -52,11 +66,14 @@
 		90D4BBB5270FD95800544945 /* SwiftUICard */ = {
 			isa = PBXGroup;
 			children = (
+				904E07C9271120E700820A4D /* fonts */,
 				90D4BBB6270FD95800544945 /* SwiftUICardApp.swift */,
 				90D4BBB8270FD95800544945 /* ContentView.swift */,
 				90D4BBBA270FD95900544945 /* Assets.xcassets */,
 				90D4BBBF270FD95900544945 /* Info.plist */,
 				90D4BBBC270FD95900544945 /* Preview Content */,
+				904E07CC2711222A00820A4D /* Launch Screen.storyboard */,
+				909F047C2711B03400824A0C /* InfoView.swift */,
 			);
 			path = SwiftUICard;
 			sourceTree = "<group>";
@@ -126,7 +143,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				904E07CB271120F600820A4D /* Pacifico-Regular.ttf in Resources */,
 				90D4BBBE270FD95900544945 /* Preview Assets.xcassets in Resources */,
+				904E07CD2711222A00820A4D /* Launch Screen.storyboard in Resources */,
 				90D4BBBB270FD95900544945 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90D4BBB9270FD95800544945 /* ContentView.swift in Sources */,
+				909F047D2711B03400824A0C /* InfoView.swift in Sources */,
 				90D4BBB7270FD95800544945 /* SwiftUICardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
